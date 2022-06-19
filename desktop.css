@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(Copy\ of\ bg-intro-desktop.png);
+}
+
+main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.su {
+    background-color: blue;
+    font-size: 18px;
+    padding: 12px;
+    border: 0;
+    border-radius: 7px;
+    position: absolute;
+    text-align: center;
+    left: 805px;
+    top: 47px;
+    width: 440px;
+    color: white;
+}
+
+div h1 {
+    font-weight: 700;
+    font-size: 45px;
+    position: relative;
+    right: 230px;
+    bottom: 20px;
+}
+
+div p {
+
+    font-family: 'Poppins', sans-serif bold;
+    font-weight: 500;
+    font-size: 12px;
+    position: relative;
+    right: 230px;
+    padding: 10px;
+}
+
+.loginbox {
+    width: 435px;
+    height: 450px;
+    background-color: white;
+    border-radius: 7px;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.loginbox input {
+    font-size: 12px;
+    width: 85%;
+    margin-top: 30px;
+    position: relative;
+    left: 32px;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+.loginbox input[type="text"],
+input[type="password"] {
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 4px;
+}
+
+#submit {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 20px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    width: 85%;
+    position: relative;
+    left: 16px;
+    top: 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
+
+h6 {
+    color: wheat;
+    padding: 10px 5px;
+    padding-left: 80px;
+    font-size: 9px;
+}
+
+h6 a {
+    color: hsl(0, 100%, 74%);
+    position: absolute;
+    text-align: center;
+
+}
